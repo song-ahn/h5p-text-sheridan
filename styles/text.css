@@ -1,3 +1,69 @@
+/* Lato font, licensed under Open Font License */
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-weight:normal; /* 400 */
+    font-style:normal;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Italic.ttf") format("truetype");
+    font-weight:normal; /* 400 */
+    font-style:italic;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Bold.ttf") format("truetype");
+    font-weight:bold; /* 700 */
+    font-style:normal;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-BoldItalic.ttf") format("truetype");
+    font-weight:bold; /* 700 */
+    font-style:italic;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Thin.ttf") format("truetype");
+    font-weight:100;
+    font-style:normal;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-ThinItalic.ttf") format("truetype");
+    font-weight:100;
+    font-style:italic;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Light.ttf") format("truetype");
+    font-weight:300; /* 300 */
+    font-style:normal;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-LightItalic.ttf") format("truetype");
+    font-weight:300; /* 300 */
+    font-style:italic;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Black.ttf") format("truetype");
+    font-weight:900;
+    font-style:normal;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-BlackItalic.ttf") format("truetype");
+    font-weight:900;
+    font-style:italic;
+}
+
+.h5p-text {
+    font-family:Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .h5p-text ul,
 .h5p-text li {
     padding-left: 0;

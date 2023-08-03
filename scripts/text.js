@@ -5,7 +5,8 @@ var H5P = H5P || {};
  *
  * @param {object} params Options for this library.
  */
-H5P.Text = function (params) {
+//@@SONG: changed classname
+H5P.TextSheridan = function (params) {
   this.text = params.text === undefined ? '<em>New text</em>' : params.text;
 };
 
@@ -14,6 +15,6 @@ H5P.Text = function (params) {
  *
  * @param {jQuery} $wrapper
  */
-H5P.Text.prototype.attach = function ($wrapper) {
+H5P.TextSheridan.prototype.attach = function ($wrapper) {
   $wrapper.addClass('h5p-text').html(this.text);
 };

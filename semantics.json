@@ -18,6 +18,11 @@
       "hr",
       "pre",
       "code"
-    ]
+    ],
+    "font": {
+        "size": true,
+        "family": true,
+        "color": true
+    }
   }
 ]
